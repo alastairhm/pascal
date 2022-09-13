@@ -10,5 +10,5 @@ BEGIN
   WRITE ('What is the radius (millmetres) ? ');
   READ (radius);
   area := pi * radius * radius;
-  WRITELN ('Area is ', area, ' sq mm');
+  WRITELN ('Area is ', area : 5: 7, ' sq mm');
 END.
